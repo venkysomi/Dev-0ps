@@ -1,3 +1,66 @@
+## JENKINS EMIAL NOTIFICATION:
+
+   ### Jenkins Email notification ###
+
+
+
+   ### Before setting up notificatioin  ####
+
+   ### Goto Manage Jenkins---credentials---Gobal---Add credentials--username:provide Email address---Give password that we generated in Google (App password)---Mailid as mail-cred which is 
+
+       mail credentials.
+
+
+
+       ### Goto Extended Email Notification ###    IT has a more features than E-mail notifications.
+
+
+      SMTP server (e.g., smtp.gmail.com)
+
+      Default user e-mail suffix (e.g., @yourcompany.com)
+
+      Click Advanced...
+
+      Set Use SMTP Authentication (if needed)
+
+      Set User Name and Password:   Google generated passkey: ebvh xxgm afmd ultc
+
+      Set SMTP port (usually 465 or 587)
+
+      Enable Use SSL or TLS as appropriate and *** Here remember give access to credentials****
+
+
+
+   ##### Goto E-mail Notification ####
+
+
+ # smtpserver:  smtp.gmail.com
+    
+   E-mail suffix @gmail.com
+ 
+
+   @ Need to open a specific port 465, protocol TCP, Type SMTPS. set smtp authentication, SSL. Give credentials.
+
+     click on advance:
+     
+    Enter username & password(from google).
+
+
+
+
+command to list the port assigned to users in Linux: sudo lsof -i -P -n | grep LISTEN
+ 
+
+
+
+   
+
+
+
+
+
+
+
 #pipeline for maven build only:
 
 pipeline {
